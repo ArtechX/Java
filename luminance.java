@@ -4,7 +4,10 @@ public class luminance
 {
     public static double lum(Color color)
     {
-        return 0.299*color.getRed() + 0.587*color.getGreen() + 0.144*color.getBlue();
+        int r = color.getRed();
+        int g = color.getGreen();
+        int b = color.getBlue();
+        return .299*r + .587*g + .114*b;
     }
     
     public static boolean compatible(Color a,Color b)

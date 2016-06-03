@@ -1,3 +1,4 @@
+
 public class matrix
 {
     public static double dot(double[] a,double[] b)
